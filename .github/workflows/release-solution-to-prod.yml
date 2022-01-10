@@ -10,7 +10,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: visitormanagement
+        default: SSFPeopleCounter
        #Do Not change these values
       solution_shipping_folder:
         description: 'folder name for staging the exported solution *do not change*'
@@ -30,14 +30,7 @@ on:
        default: out/release
   release:
     types: [created]
-  
 
-env:
-#edit your values here
-  BUILD_ENVIRONMENT_URL: 'https://ssftest.crm4.dynamics.com'
-  PRODUCTION_ENVIRONMENT_URL: 'https://ssfprod.crm4.dynamics.com'
-  CLIENT_ID: '358dd098-0ad7-4371-99ba-e99cbbaca06a'
-  TENANT_ID: 'fcc9271a-44d3-4aa8-8442-d054bcbbe44a'
 
 jobs:
   convert-to-managed:
