@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ur_ssfpeoplecountertable" />
+  <EntityRelationship Name="business_unit_ur_ssfpeopletotal" />
+  <EntityRelationship Name="lk_ur_ssfpeoplecountertable_createdby" />
+  <EntityRelationship Name="lk_ur_ssfpeoplecountertable_modifiedby" />
+  <EntityRelationship Name="lk_ur_ssfpeopletotal_createdby" />
+  <EntityRelationship Name="lk_ur_ssfpeopletotal_modifiedby" />
+  <EntityRelationship Name="owner_ur_ssfpeoplecountertable" />
+  <EntityRelationship Name="owner_ur_ssfpeopletotal" />
+  <EntityRelationship Name="team_ur_ssfpeoplecountertable" />
+  <EntityRelationship Name="team_ur_ssfpeopletotal" />
+  <EntityRelationship Name="user_ur_ssfpeoplecountertable" />
+  <EntityRelationship Name="user_ur_ssfpeopletotal" />
+</EntityRelationships>
